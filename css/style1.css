@@ -1,0 +1,118 @@
+body {
+    background-image: url(../img/Rectangle\ 1.png);
+    font-family: DroidArabicKufi, Arial, sans-serif;
+
+}
+
+@font-face {
+    font-family: DroidArabicKufi;
+    src: url(../Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+}
+
+.container .img1 {
+    top: 72px;
+    left: 719px;
+    width: 141px;
+    height: 152px;
+}
+
+.container .img2 {
+    top: 61px;
+    left: 893px;
+    width: 309px;
+    height: 174px;
+}
+
+form {
+    direction: rtl;
+    text-align: right;
+}
+
+label {
+    display: block;
+    text-align: right;
+}
+
+.form-control {
+    margin: 5px 0;
+}
+
+.col-sm-2 {
+    margin: 5px 0;
+
+}
+
+.map {
+    padding: 4px;
+    margin-right: 5px;
+    border-radius: 4px;
+    background-color: #C11A2F;
+
+
+}
+
+.note {
+    color: #C11A2F;
+}
+
+.form-check-input:checked {
+    background-color: #C11A2F;
+    border-color: #C11A2F;
+}
+
+
+.mt-4 td {
+    padding: 7px 10px;
+}
+
+.title {
+    opacity: 0.5;
+}
+
+.btn {
+    background: linear-gradient(to right, #C11A2F 0%, #A91828 100%);
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.line {
+    border: none;
+    height: 500px;
+    width: 4px;
+    background-color: #F2F2F2;
+    margin: 20px 25px;
+
+}
+
+.table2 tr:nth-last-child(2) td {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 30px;
+}
+
+.price {
+    color: #C11A2F;
+}
+
+.line2 {
+    border: none;
+    height: 4px;
+    width: 400px;
+    background-color: #F2F2F2;
+    margin: 20px 0;
+}
+
+.custom-select {
+    background-position:10px;
+    padding-right: 14px;
+}
+
+.form-check .form-check-input {
+    float: right;
+    margin-left: -1.5em;
+}
+.form-check-label{
+    margin-right: 25px;
+}

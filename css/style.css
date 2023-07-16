@@ -1,0 +1,116 @@
+body {
+    background-image: url(../img/Rectangle\ 1.png);
+    font-family: DroidArabicKufi , Arial, sans-serif;
+
+}
+
+@font-face {
+    font-family: DroidArabicKufi;
+    src: url(../Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+}
+
+.container .img1 {
+    top: 72px;
+    left: 719px;
+    width: 141px;
+    height: 152px;
+}
+
+.container .img2 {
+    top: 61px;
+    left: 893px;
+    width: 309px;
+    height: 174px;
+}
+
+.carousel>.carousel-inner>.carousel-item>img {
+    width: 1640px;
+    height: 474px;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #A91828;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.perfume-image {
+    width: 79px;
+    height: 86px;
+}
+
+.after {
+    font-weight:bold;
+}
+
+.deebaj {
+    color: #C11A2F;
+    font-weight: 700;
+}
+
+.eve {
+    color: #C11A2F;
+    font-weight: 700;
+}
+
+.mil {
+    color: #F3A215;
+    font-weight: 600;
+}
+
+.price {
+    color: #C11A2F;
+    font-weight: 700;
+    font-size: large;
+}
+
+.free {
+    color: #C11A2F;
+}
+
+.car-image {
+    width: 50px;
+    height: 35px;
+}
+
+.clickHere {
+    background: linear-gradient(to right, #C11A2F 0%, #A91828 100%);
+}
+
+.arrow {
+    top: 1538px;
+    left: 968px;
+    width: 55px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+.line {
+    border: none;
+    height: 4px;
+    width: 400px;
+    background-color: #F2F2F2;
+    margin: 20px 0;
+}
+
+.carousel-indicators button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.carousel-indicators button .indicator-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.carousel-indicators button.active .indicator-dot {
+    background-color: #A91828;
+}

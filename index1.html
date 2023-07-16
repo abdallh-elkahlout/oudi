@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oudi</title>
+    <link rel="stylesheet" href="bootstrap/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="img/oudi logo.png">
+    <link rel="stylesheet" href="css/style1.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container  d-flex justify-content-center align-items-center ">
+            <img class="img1" src="img/oudi logo.png" alt="">
+            <img class="img2" src="img/Eve ParfumE Logo-01.png" alt="">
+        </div>
+    </nav>
+    <div class="order text-center pt-5 pb-5">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <form>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">اسم الزبون</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control " placeholder="قم بادخال اسمك">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">رقم التواصل</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" placeholder="قم بادخال رقم للتواصل">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="quantity" class="col-sm-2 col-form-label">الكمية</label>
+                            <div class="col-sm-10">
+                                <div class="custom-select-wrapper">
+                                    <select id="quantity" class="form-select custom-select"
+                                        aria-label="Default select example">
+                                        <option value="">قم بادخال الكمية من 1 الى 10</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="city" class="col-sm-2 col-form-label">مكان التوصيل</label>
+                            <div class="col-sm-10 d-flex align-items-center">
+                                <select id="city" class="form-select custom-select">
+                                    <option value="">قم باختيار اسم المدينة</option>
+                                </select>
+                                <div class="map d-inline-block ">
+                                    <img src="img/google.png" alt="" class="mx-auto d-block">
+                                </div>
+                            </div>
+                            <span class="note mt-3"><small>ملاحظة: يتم التوصيل في أقل من 48 ساعة.</small></span>
+                            <div class="mt-4">
+                                <p class="d-inline">طريقة الدفع:</p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"
+                                        name="choice" checked>
+                                    <label class="form-check-label" for="inlineCheckbox1">تحويل بنكي</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="choice"
+                                        value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">الدفع مع مندوب التوصيل</label>
+                                </div>
+                            </div>
+                            <table class="mt-4">
+                                <tr>
+                                    <td class="title">رقم الحساب</td>
+                                    <td>٠٣٧٨٠٥٦٢٨١٩٠٠٠١٧</td>
+                                </tr>
+                                <tr>
+                                    <td class="title">اسم البنك</td>
+                                    <td>بنك مسقط</td>
+                                </tr>
+                                <tr>
+                                    <td class="title">اسم الحساب</td>
+                                    <td>أوتاد نزوى الوطنية ش م م</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="form-group row">
+                            <div class="mt-4">
+                                <button type="button" class="btn ps-5 pe-5 pt-2 pb-2 " data-bs-toggle="modal"
+                                    data-bs-target="#order"><img class="ms-3" src="img/send.png" alt=""> إعتماد
+                                    الطلب</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-1 col-lg-1 d-none d-md-block">
+                    <div class="line"></div>
+                </div>
+                <div class="col-md-5 col-lg-5 col-sm-12">
+                    <div class="form-group row">
+
+
+                        <table class="table2 mt-4">
+                            <tr>
+                                <td>عطر eve</td>
+                                <td class="title">اسم العطر</td>
+                            </tr>
+                            <tr>
+                                <td>17 ريال</td>
+                                <td class="title">سعر العطر</td>
+                            </tr>
+                            <tr>
+                                <td>0 ريال</td>
+                                <td class="title">رسوم التوصيل</td>
+                            </tr>
+                            <tr>
+                                <td class="price fw-bold">17 ريال</td>
+                                <td class="fw-bold ">الاجمالي </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="order" tabindex="-1" aria-labelledby="orderProcess" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content " style="width: 630px;">
+                <button type="button" class="btn-close mt-3 ms-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body text-center">
+                    <h5 class="d-inline me-4" style="color: #25AE88;">شكرا لطلبكم</h5>
+                    <img style="width: 40px;" src="img/success.png" alt="">
+                    <p class="mt-4 mb-5">سيتم التواصل معك قريبا، كما نلتزم بالوصول اليك بالطلب خلال أقل من ٤٨ ساعة</p>
+                    <small class="d-block mb-3">للمزيد من الاستفسار</small>
+                    <p class="me-3 d-inline ">95250299 – 95250207</p>
+                    <img style="width: 20px;" src="img/call-answer.png" alt="">
+                    <div class="line2 m-auto mt-3 mb-3"></div>
+                    <p class="fw-bold">@oudi.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const checkboxes = document.querySelectorAll('input[type="checkbox"][name="choice"]');
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                if (checkbox.checked) {
+                    checkboxes.forEach(otherCheckbox => {
+                        if (otherCheckbox !== checkbox) {
+                            otherCheckbox.checked = false;
+                        }
+                    });
+                }
+            });
+        });
+
+    </script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/all.min.js"></script>
+</body>
+
+</html>
